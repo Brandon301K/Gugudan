@@ -128,31 +128,15 @@ public class Gugudan {
 			}
 			
 		}*/
-		
-		
+		int[] first = new int[9];
 		int[] result = new int[9];
-		
-		for(int i=0; i < result.length; i++) {
-			result[i] = 2 * (i + 1);
-		}
-		
-		for(int i=0; i < result.length; i++) {
-			System.out.println(result[i]);
-		}
-		System.out.println();
-		
-		result = new int[9]; //새로 result값으로 덮어씌움
-		
-		for(int i=0; i < result.length; i++) {
-			result[i] = 3 * (i + 1);
-		}
-		
-		for(int i=0; i < result.length; i++) {
-			System.out.println(result[i]);
-		}
-		
-		
+        for(int i=2; i<=first.length; i++) {
+           System.out.println("*** " + i +"단  ***");
+           for (int j=1; j<=result.length; j++) {
+        	   System.out.println(i + " * " + j + " = " + i*j);
+           }
+        }
 
-	}
-
+        
+    }
 }
