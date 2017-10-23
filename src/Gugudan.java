@@ -72,24 +72,23 @@ public class Gugudan {
 		System.out.println(result5);
 		System.out.println();*/
 		
-		System.out.println("구구단중 출력할 단은?: ");
+		/*System.out.println("구구단중 출력할 단은?: ");
 		Scanner scanner = new Scanner(System.in);
 		int number = scanner.nextInt();
 		int i;
 		for(i=1; i<10; i++) {
-			
 			System.out.println(number * i);
-		}
-		/*System.out.println(number * 1);
-		System.out.println(number * 2);
-		System.out.println(number * 3);
-		System.out.println(number * 4);
-		System.out.println(number * 5);
-		System.out.println(number * 6);
-		System.out.println(number * 7);
-		System.out.println(number * 8);
-		System.out.println(number * 9);*/
+		}*/
 		
+		int i = 1;
+		while(i < 10) {
+			System.out.println(6 * i);
+			i++;
+		}
+		
+		for(int j = 1; j<10; j++) {
+			System.out.println(7 * j);
+		}
 		
 		
 		
